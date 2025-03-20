@@ -9,7 +9,6 @@ public class Ex10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Solicita as coordenadas dos dois pontos
         System.out.print("Digite a coordenada x1: ");
         double x1 = scanner.nextDouble();
 
@@ -21,11 +20,9 @@ public class Ex10 {
 
         System.out.print("Digite a coordenada y2: ");
         double y2 = scanner.nextDouble();
-
-        // Calcula a distancia entre os pontos
+        
         double distancia = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 
-        // Exibe o resultado
         System.out.printf("A distancia entre os pontos e: %.2f\n", distancia);
 
         scanner.close();
