@@ -9,17 +9,14 @@ import java.util.Scanner;
 
 public class Ex2 {
     public static void main(String[] args) {
-        final double PI = 3.14159; // Definição da constante π
+        final double PI = 3.14159; 
         Scanner scanner = new Scanner(System.in);
 
-        // Solicita ao usuario o valor do raio
         System.out.print("Digite o raio do circulo: ");
         double raio = scanner.nextDouble();
-
-        // Calcula a area do circulo
+        
         double area = PI * Math.pow(raio, 2);
-
-        // Exibe o resultado
+        
         System.out.printf("A area do circulo e: %.4f\n", area);
 
         scanner.close();
