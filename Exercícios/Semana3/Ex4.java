@@ -5,10 +5,9 @@ import java.util.Scanner;
 
 public class Ex4 {
     public static void main(String[] args) {
-        // Criação do objeto Scanner para ler a entrada do usuário
-        Scanner scanner = new Scanner(System.in);
 
-        // Solicita ao usuário as três notas
+        Scanner scanner = new Scanner(System.in);
+        
         System.out.print("Digite a primeira nota: ");
         double nota1 = scanner.nextDouble();
 
@@ -18,13 +17,10 @@ public class Ex4 {
         System.out.print("Digite a terceira nota: ");
         double nota3 = scanner.nextDouble();
 
-        // Calcula a média simples
         double media = (nota1 + nota2 + nota3) / 3;
 
-        // Exibe o resultado
         System.out.printf("A media aritmética das notas e: %.2f\n", media);
 
-        // Fecha o scanner
         scanner.close();
     }
 }
